@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="title" content="free responsive web design" />
+		<meta name="description" content="free html css templete" />
+		<meta name="keyword" content="html,css,js,bootstrap,jquery,web design,bootstrap templete" />
+		<meta name="author" content="Mahmudul Hasan">
+		<meta http-equiv="refresh" content="30">
+		<title>About</title>
+		<!-- Favicon Icon -->
+		<link rel="icon" href="assets/img/favicon.ico" sizes="16x16" />
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+		<!-- Owl Carsol -->
+		<link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
+		<!-- Font Awesome CSS -->
+		<link rel="stylesheet" href="assets/icon/css/font-awesome.min.css" />
+		<!-- popup CSS -->
+		<link rel="stylesheet" href="assets/css/magnific-popup.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!-- Animate CSS -->
+		<link rel="stylesheet" href="assets/vendor/node_modules/animate.css/animate.min.css" />
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<style>
+			.owl-carousel .owl-nav button.owl-next {
+    			position: static !important;
+    			background: #56ab2f !important;
+    			padding-left: 20px !important;
+    			padding-right: 20px !important;
+    			border-radius: 0 !important;
+    			color: white;
+    			font-size: 30px;
+			}
+			.owl-carousel .owl-nav button.owl-prev {
+    			position: static !important;
+    			background: #56ab2f !important;
+    			padding-left: 20px !important;
+    			padding-right: 20px !important;
+    			border-radius: 0 !important;
+    			color: white;
+    			font-size: 30px;
+			}
+			.owl-carousel .owl-nav button.owl-prev:hover,
+			.owl-carousel .owl-nav button.owl-next:hover{
+				color: white;
+			}
+		</style>
+	</head>
+	<body>
+		<!--============= ful header section aria start =================-->
+		<!-------------------------- Topbar Start ------------------------->
+		<section class="topBar fourth_bg ">
+			<div class="container">
+				<div class="d-flex justify-content-between">
+					<ul class="left-menu d-flex">
+						<li><a href="tel:+8801775791700"><i class="fa fa-phone" aria-hidden="true"></i> <span>+(88) 01775 791700</span></a></li>
+						<li><a href="mailto:mhasanshafi700@gmail.com"><i class="fa fa-envelope"></i> <span> mhasanshafi700@gmail.com </span></a> </li>
+						<li><a href="https://goo.gl/maps/nkjG9KGeXY9aHrDj7"><i class="fa fa-map-marker"></i><span> Dhaka, Bangladesh </span></a> </li>
+						
+						
+					</ul>
+					<ul class="right-menu d-flex">
+						<li><a href="login.html" class="right-menu-li text-light">Login</a></li>
+						<li><a href="Register.html" class="text-light">Register</a></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<!-------------------------- Topbar End ------------------------->
+		<!-------------------------- Header Section Start --------------->
+		<header class="header sticky-top">
+			<nav class="navbar navbar-expand-lg navbar-light nav_bg">
+				<div class="container">
+					<a class="navbar-brand logo_image" href="index.html">
+						<img src="assets/img/logo.gif" alt="!Logo" class="">
+					</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse nav_bar_item" id="navbarSupportedContent">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item ">
+								<a class="nav-link fw700" href="index.html">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link fw700 first_color" href="about.html">About</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link fw700" href="service.html">Services</a>
+								
+							</li>
+							<li class="nav-item">
+								<a class="nav-link fw700" href="#">Events</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link fw700" href="galary.html">Galary</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link fw700" href="contact.html">Contact</a>
+							</li>
+							<!------------- Search Aria Start--------------->
+
+					<div class="openBtn" onclick="openSearch()"><i class="fa fa-search"></i></div>
+					<div id="myOverlay" class="overlay">
+					  <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+					  <div class="overlay-content">
+					    <form action="/action_page.php">
+					      <input class="input_color" type="text" placeholder="Search.." name="search">
+					      <button class="Sub_Btn" type="submit"><i class="fa fa-search"></i></button>
+					    </form>
+					  </div>
+					</div>
+			<!------------- Search Aria End--------------->
+							<!-- <li class="nav-item">
+								<a class="nav-link fw700" href="#">
+									<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+									<sup>
+									<span class="badge first_bg third_color">1</span>
+									</sup>
+								</a>
+							</li> -->
+						</ul>
+					</div>
+			
+				</div>
+			</nav>
+		</header>
+
+
+
+		<!-------------------------- Header Section End   --------------->
+		<!--======================== bradcrumb Section Start   =============-->
+		<section class="bradcrumb py-4">
+			<div class="text-center">
+				<h3 class="text-center fw700 text-light">
+				ABOUT US
+				</h3>
+				<p>
+					<a href="index.html" class="about_home text-light">Home</a>
+					<a href="#" class="about_ancor first_color">About</a>
+					<h3 class="text-center text-light">You are most Welcome<h3>
+					<h5 class="text-center text-success">You can choose any kind of design.</h5>
+				</p>
+			</div>
+		</section>
+		<!--======================== bradcrumb Section End   =============-->
+		<!-------------------------- Principle Section Start  ----------->
+		<section class="principle pt-5 pb-3">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-5 offset-md-1">
+						<h2 class="fw700 pb-3 letter_space">Message From The Founder</h2>
+						<p class="text-justify ">
+							Hello Everyone, Welcome to my company mhasanweb.com. You need any kind of services than visit my company Service page. This is our providing website to Client, with full satisfaction. We are Starting to some new projects. We hope recent coming projects will be better. These are our Important facts. We are achieved a mile. We are trying to be better.
+						</p>
+						<p class="text-justify pt-2">
+						This is our providing website to Client, with full satisfaction. We are Starting to some new projects. We hope recent coming projects will be better. These are our Important facts. We are achieved a mile. We are trying to be better.
+						</p>
+					</div>
+					<div class="col-md-6">
+						<div class="bg-img ml-5">
+							<img src="assets/img/home/agadimy.png" alt="" class="img-fluid">
+						</div>
+						<img src="assets/img/hasan.png" alt="" class="custom_img mt_70">
+					</div>
+				</div>
+				
+			</div>
+		</section>
+		<section class="msg pb-5">
+			<div class="container">
+				<p class="text-justify">
+					These statistics considered – are you paying enough attention to your About Us page?
+
+Rand Fishkin once tweeted, “Best way to sell something—don’t sell anything. Earn the awareness, respect, and trust of those who might buy”.
+
+Trust and respect are things that have to be earned. Awareness comes from being top of mind. These should all be the end goals of your marketing strategy, from SEO and content marketing to social media and email.
+
+Your company’s About Us page is another opportunity to tell a story that will help you stick in your customer’s minds. (And as Blue Acorn’s study proves, it’s also an opportunity for a sale.)
+
+Although everyone knows that users prefer images to text, it’s not as easy as just putting a bunch of pictures on your About Us page (although, as you will see, that definitely helps) and moving on to the next project. While creating an innovative page is hard work and can be time consuming, it can build the trust and respect of a potential customer, thus tipping the scale greatly tipped in your favor.
+
+So how do the best companies do it right?
+
+We have taken a look at 50 different pages that excel. Each have features you can learn and modify for your own site.
+
+In addition, we also put together an infographic that breaks down the science behind a great About Us page. Click here to jump to it.
+				</p>
+			</div>
+		</section>
+		<!-------------------------- Principle Section End    ----------->
+		<!---======================= Facts Section Start  ==============-->
+		<section class="facts py-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<h1 class="text-left text-light">Important Facts</h1>
+						<p class="text-left text-light">
+							Hello "Guys" This is a amezing platform for website design. We are allways ready to do your expected designs. So Let's discuss to get a beautiful website design. Thank you
+						</p>
+						<button class="btn btn-outline-light">
+						CONTACT US
+						</button>
+					</div>
+					<div class="col-md-2 pt-5 text-center">
+						<h1 class="c-font text-light teacher">5</h1>
+						<p class="text-light">Instructor</p>
+					</div>
+					<div class="col-md-2 pt-5 text-center">
+						<h1 class="c-font text-light">45 <span>+</span></h1>
+						<p class="text-light">Total Projects</p>
+					</div>
+					<div class="col-md-2 pt-5 text-center">
+						<h1 class="c-font text-light">10 <span>+</span></h1>
+						<p class="text-light">Courses</p>
+					</div>
+					<div class="col-md-2 pt-5 text-center">
+						<h1 class="c-font text-light">25<span>+</span></h1>
+						<p class="text-light">Providing Project</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!---======================= Facts Section End  ==============-->
+		<!-- ======================== testimonial Section Start ======= -->
+		<section class="teacher_About py-5">
+			<div class="container">
+				<div class="text-center pb-5">
+					<h1 class="fw700">Our Teacher</h1>
+					<p> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet <br>
+						doming id quod mazim placerat facer possim assum.
+					</p>
+				</div>
+				<div class="teacher_about_car owl-carousel owl-theme">
+					<!-- Single card start -->
+					<div class="card no-radius c_border po_rel">
+						<img src="assets/img/hasan.png" alt="" class="card-img-top no-radius">
+						<div class="overlay_card first_bg">
+							<ul class="teacher_about_so">
+								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> </a></li>
+								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
+								<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i> </a></li>
+								<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> </a></li>
+							</ul>
+						</div>
+						<div class="c_body border-btn">
+							<h4 class="text-center">Mahmudul Hasan</h4>
+							<p class="text-center">Computer Engineer</p>
+							<p class="text-center">Dhaka International Univercity</p>
+						</div>
+						<div class="card-body text-justify">
+							Lorem ipsum dolor sit amet conse
+							tetuer adipiscing elit sediam nonu
+							mmy nibh euismod tincidunt ut la
+							oreet dolore magna aliquam.
+						</div>
+					</div>
+					<!-- Single card End -->
+					<!-- Single card start -->
+					<div class="card no-radius c_border po_rel">
+						<img src="assets/img/hridoy.png" alt="" class="card-img-top no-radius">
+						<div class="overlay_card first_bg">
+							<ul class="teacher_about_so">
+								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> </a></li>
+								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
+								<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i> </a></li>
+								<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> </a></li>
+							</ul>
+						</div>
+						<div class="c_body border-btn">
+							<h4 class="text-center">Md Abdul Khalek </h4>
+							<p class="text-center">Civil Engineer</p>
+							<p class="text-center">Presidency Univercity</p>
+						</div>
+						<div class="card-body text-justify">
+							Lorem ipsum dolor sit amet conse
+							tetuer adipiscing elit sediam nonu
+							mmy nibh euismod tincidunt ut la
+							oreet dolore magna aliquam.
+						</div>
+					</div>
+					<!-- Single card End -->
+					<!-- Single card start -->
+					<div class="card no-radius c_border po_rel">
+						<img src="assets/img/nasim.png" alt="" class="card-img-top no-radius">
+						<div class="overlay_card first_bg">
+							<ul class="teacher_about_so">
+								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> </a></li>
+								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
+								<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i> </a></li>
+								<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> </a></li>
+							</ul>
+						</div>
+						<div class="c_body border-btn">
+							<h4 class="text-center">Md Nasim Hasan</h4>
+							<p class="text-center">Environment Engineer</p>
+							<p class="text-center">South Asia Univercity</p>
+						</div>
+						<div class="card-body text-justify">
+							Lorem ipsum dolor sit amet conse
+							tetuer adipiscing elit sediam nonu
+							mmy nibh euismod tincidunt ut la
+							oreet dolore magna aliquam.
+						</div>
+					</div>
+					<!-- Single card End -->
+					<!-- Single card start -->
+					<div class="card no-radius c_border po_rel">
+						<img src="assets/img/azam.png" alt="" class="card-img-top no-radius">
+						<div class="overlay_card first_bg">
+							<ul class="teacher_about_so">
+								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> </a></li>
+								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
+								<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i> </a></li>
+								<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> </a></li>
+							</ul>
+						</div>
+						<div class="c_body border-btn">
+							<h4 class="text-center">Md Ali Azam</h4>
+							<p class="text-center">Civil Engineer</p>
+							<p class="text-center">Deffodil International Univercity</p>
+						</div>
+						<div class="card-body text-justify">
+							Lorem ipsum dolor sit amet conse
+							tetuer adipiscing elit sediam nonu
+							mmy nibh euismod tincidunt ut la
+							oreet dolore magna aliquam.
+						</div>
+					</div>
+					<!-- Single card End -->
+					<!-- Single card start -->
+					<div class="card no-radius c_border po_rel">
+						<img src="assets/img/pappu.png" alt="" class="card-img-top no-radius">
+						<div class="overlay_card first_bg">
+							<ul class="teacher_about_so">
+								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> </a></li>
+								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
+								<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i> </a></li>
+								<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> </a></li>
+							</ul>
+						</div>
+						<div class="c_body border-btn">
+							<h4 class="text-center">Md Abdul Kuddus </h4>
+							<p class="text-center">Computer Engineer</p>
+							<p class="text-center">Northern Univercity</p>
+						</div>
+						<div class="card-body text-justify">
+							Lorem ipsum dolor sit amet conse
+							tetuer adipiscing elit sediam nonu
+							mmy nibh euismod tincidunt ut la
+							oreet dolore magna aliquam.
+						</div>
+					</div>
+					<!-- Single card End -->
+					<!-- Single card start -->
+					<div class="card no-radius c_border po_rel">
+						<img src="assets/img/about/teacher_b.png" alt="" class="card-img-top no-radius">
+						<div class="overlay_card first_bg">
+							<ul class="teacher_about_so">
+								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> </a></li>
+								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
+								<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i> </a></li>
+								<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> </a></li>
+							</ul>
+						</div>
+						<div class="c_body border-btn">
+							<h4 class="text-center">Mashok Khan</h4>
+							<p class="text-center">Professor</p>
+							<p class="text-center">Presidency Univercity</p>
+						</div>
+						<div class="card-body text-justify">
+							Lorem ipsum dolor sit amet conse
+							tetuer adipiscing elit sediam nonu
+							mmy nibh euismod tincidunt ut la
+							oreet dolore magna aliquam.
+						</div>
+					</div>
+					<!-- Single card End -->
+					<!-- Single card start -->
+					<div class="card no-radius c_border po_rel">
+						<img src="assets/img/about/teacher_c.png" alt="" class="card-img-top no-radius">
+						<div class="overlay_card first_bg">
+							<ul class="teacher_about_so">
+								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> </a></li>
+								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
+								<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i> </a></li>
+								<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> </a></li>
+							</ul>
+						</div>
+						<div class="c_body border-btn">
+							<h4 class="text-center">Mashok Khan</h4>
+							<p class="text-center">Professor</p>
+							<p class="text-center">Deffodil International Univercity</p>
+						</div>
+						<div class="card-body text-justify">
+							Lorem ipsum dolor sit amet conse
+							tetuer adipiscing elit sediam nonu
+							mmy nibh euismod tincidunt ut la
+							oreet dolore magna aliquam.
+						</div>
+					</div>
+					<!-- Single card End -->
+					<!-- Single card start -->
+					<div class="card no-radius c_border po_rel">
+						<img src="assets/img/about/teacher_d.png" alt="" class="card-img-top no-radius">
+						<div class="overlay_card first_bg">
+							<ul class="teacher_about_so">
+								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> </a></li>
+								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
+								<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i> </a></li>
+								<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> </a></li>
+							</ul>
+						</div>
+						<div class="c_body border-btn">
+							<h4 class="text-center">Mrs.Nafisa Beagum</h4>
+							<p class="text-center">Professor</p>
+							<p class="text-center">Deffodil International Univercity</p>
+						</div>
+						<div class="card-body text-justify">
+							Lorem ipsum dolor sit amet conse
+							tetuer adipiscing elit sediam nonu
+							mmy nibh euismod tincidunt ut la
+							oreet dolore magna aliquam.
+						</div>
+					</div>
+					<!-- Single card End -->
+				</div>
+			</div>
+		</section>
+		<!-- ======================== testimonial Section End ========= -->
+		
+		<!-- ======================== Footer Section Start ========= -->
+		<footer class="footer pt-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 pt-4 footer_img text-center">
+						<img src="assets/img/animation.gif"/>
+						<p class="text-justify text-light text-center">
+							Hello Everyone, Welcome to my company mhasanweb.com. You need any kind of services than visit my company Service page. Thank You
+						</p>
+						
+						
+						
+					</div>
+					
+					<div class="col-md-2 padding_b">
+						<h4 class=" pt-5">Categories</h4>
+						
+						<ul class="footer-link">
+							<li><a href="#"> </a></li>
+							<li><a href="#"> Bootstrap</a></li>
+							<li><a href="#"> Javacript</a></li>
+							<li><a href="#"> PHP Basic</a></li>
+							<li><a href="#"> Wordpress</a></li>
+							<li><a href="#"> html & css</a></li>
+							<li><a href="#"> </a></li>
+						</ul>
+						
+					</div>
+					<div class="col-md-2 padding_b">
+						<h4 class=" pt-5">Working on</h4>
+						
+						<ul class="footer-link">
+							<li><a href="#"> </a></li>
+							<li><a href="#"> Website design</a></li>
+							<li><a href="#"> WebPage design</a></li>
+							<li><a href="#"> Template design</a></li>
+							<li><a href="#"> Business page design</a></li>
+						</ul>
+						
+					</div>
+					<div class="col-md-2 padding_b">
+						<h4 class=" pt-5">Support</h4>
+						
+						<ul class="footer-link">
+							<li><a href="#"> Help & Support</a></li>
+							<li><a href="#"> Privacy Policy</a></li>
+							<li><a href="#"> Terms of Service</a></li>
+							<li><a href="#"> Trust & Safety</a></li>
+							<li><a href="#"> Cockie Policy</a></li>
+						</ul>
+						
+					</div>
+					<!--======== Galary aria start ============-->
+					
+					<div class="col-md-3 ">
+						
+						<div class="office_img text-light pt-5 text-center">
+						<div class="text-center">
+							<h4 class="py-3 text-center text-light"><span >Contact Us : </span></h4>
+							<a href="https://goo.gl/maps/nkjG9KGeXY9aHrDj7" target="_blank" class="text-center text-light">Office : 68/1, Omar Ali  Lane,West Rampura,Dhaka,Bangladesh-1219</a>
+						</div>
+							
+						<ul class="footer-list pt-4">
+							<li><a href="tel:01775791700"><i class="fa fa-phone"></i> &nbsp;&nbsp; +(88)01775791700</a></li>
+							<li><a href="mailto:mhasanshafi700@gmail.com"><i class="fa fa-envelope"></i> &nbsp;&nbsp;mhasanshafi700@gmail.com </a></li>
+						</ul>
+							
+						</div>
+						<div class="col-md-5 text-center">
+							<ul class="d-flex footer_social_ico text-center">
+								<li><a href="https://www.facebook.com/mhasanshafi700/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> </a></li>
+								<li><a href="https://twitter.com/Mahmudu76358146" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
+								<li><a href="https://www.pinterest.com/mhasanshafi700/_saved/" target="_blank"><i class="fa fa-pinterest" aria-hidden="true"></i> </a></li>
+								<li><a href="https://www.instagram.com/mhasanshafi/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i> </a></li>
+								<li><a href="https://www.linkedin.com/in/mhasanshafi700/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i> </a></li>
+							</ul>
+						</div>
+						<!--<div class="footer_popup">
+							<div class="row mt-4">
+								<div class="col-4 radius image_size">
+									<a href="assets/img/home/hasan.png">
+										<img src="assets/img/home/hasan.png" alt="">
+									</a>
+								</div>
+								<div class="col-4 radius image_size">
+									<a href="assets/img/home/nasim.png">
+										<img src="assets/img/home/nasim.png" alt="">
+									</a>
+								</div>
+								<div class="col-4 radius image_size">
+									<a href="assets/img/home/hridoy.png">
+										<img src="assets/img/home/hridoy.png" alt="">
+									</a>
+								</div>
+								<div class="col-4 pt-2 radius image_size">
+									<a href="assets/img/home/azam.png">
+										<img src="assets/img/home/azam.png" alt="">
+									</a>
+								</div>
+								<div class="col-4 pt-2 radius image_size">
+									<a href="assets/img/home/pappu.png">
+										<img src="assets/img/home/pappu.png" alt="">
+									</a>
+								</div>
+								<div class="col-4 pt-2 radius image_size">
+									<a href="assets/img/home/hasan.png">
+										<img src="assets/img/home/hasan.png" alt="">
+									</a>
+								</div>
+							</div>
+						</div>-->
+					</div>
+				<!--======== Galary aria End ============-->
+				</div>
+				<div class="footer-bottom">
+					<div class="row">
+						<div class="col-md-12 copy_right text-center mb-2">
+							<p class="text-light">
+								 Copyright &copy;-2021 mhasanweb.com | All Right Reserved
+							</p>
+						</div>
+						<!--<div class="col-md-3 text-center">
+							<p class="text-light">
+								Design by <a href="https://mhasanweb.com">mhasanweb.com</a>
+							</p>
+						</div>-->
+						<!--<div class="col-md-4">
+							<ul class="d-flex justify-content-end footer-so">
+								<li><a href="https://www.facebook.com/mhasanshafi700/"><i class="fa fa-facebook" aria-hidden="true"></i> </a></li>
+								<li><a href="https://twitter.com/Mahmudu76358146"><i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
+								<li><a href="https://www.pinterest.com/mhasanshafi700/_saved/"><i class="fa fa-pinterest" aria-hidden="true"></i> </a></li>
+								<li><a href="https://www.instagram.com/mhasanshafi/"><i class="fa fa-instagram" aria-hidden="true"></i> </a></li>
+								<li><a href="https://www.linkedin.com/in/mhasanshafi700/"><i class="fa fa-linkedin" aria-hidden="true"></i> </a></li>
+							</ul>
+						</div>-->
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- ======================== Footer Section End  ========== -->
+		<!--======================= scrool top start ================-->
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	<script>
+	//Get the button
+	var mybutton = document.getElementById("myBtn");
+
+	// When the user scrolls down 20px from the top of the document, show the button
+	window.onscroll = function() {scrollFunction()};
+
+	function scrollFunction() {
+	  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+	    mybutton.style.display = "block";
+	  } else {
+	    mybutton.style.display = "none";
+	  }
+	}
+
+	// When the user clicks on the button, scroll to the top of the document
+	function topFunction() {
+	  document.body.scrollTop = 0;
+	  document.documentElement.scrollTop = 0;
+	}
+	</script>
+	<!--======================= scrool top End ================-->
+	<!----------------- Search Aria Start--------------------->
+	<script>
+	function openSearch() {
+	  document.getElementById("myOverlay").style.display = "block";
+	}
+
+	function closeSearch() {
+	  document.getElementById("myOverlay").style.display = "none";
+	}
+	</script>
+	<!----------------- Search Aria End----------------------->
+	<!-- jQuery JS -->
+	<script src="assets/js/jquery.min.js"></script>
+	<!-- Popper JS -->
+	<script src="assets/js/popper.min.js"></script>
+	<!-- Bootstrap JS -->
+	<script src="assets/js/bootstrap.min.js"></script>
+	<!-- Owl Carsol -->
+	<script src="assets/js/owl.carousel.min.js"></script>
+	<!-- Popup JS -->
+	<script src="assets/js/jquery.magnific-popup.min.js"></script>
+	<!-- WoW js -->
+	<script src="assets/vendor/node_modules/wow.js/dist/wow.min.js"></script>
+	<script src="assets/vendor/node_modules/countup.js/dist/countUp.js"></script>
+	<script src="assets/vendor/node_modules/countup.js/dist/countUp.umd.js"></script>
+	<!-- Custom JS -->
+	<script src="assets/js/main.js"></script>
+</body>
+</html>
